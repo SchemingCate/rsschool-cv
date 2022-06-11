@@ -53,3 +53,9 @@
  * **
  * **Content manager** 1C-Bitrix Online course - *2021*
  * **Bachelor of Linguistics** Moscow State Pedagogical University  - *2020*
+
+ ## Languages
+ * English - C1
+ * Russian - native
+ * French - A2
+ 
