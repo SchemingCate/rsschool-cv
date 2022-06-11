@@ -50,7 +50,6 @@
  * **Private English tutor** - *September 2018 - March 2021*
 
  ## Education
- * **
  * **Content manager** 1C-Bitrix Online course - *2021*
  * **Bachelor of Linguistics** Moscow State Pedagogical University  - *2020*
 
@@ -58,4 +57,3 @@
  * English - C1
  * Russian - native
  * French - A2
- 
