@@ -43,6 +43,7 @@
   return currentNumber;
 };
  ```
+ 
 ## Experience
  * **Account manager** at Web studio (name available upon request) - *June 2021 - present* 
  * **Junior recruiter** at [ANCOR](https://ancor.ru/) - *April - June 2021*
