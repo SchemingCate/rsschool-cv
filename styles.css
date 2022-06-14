@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: #c1c1c1;
+  cursor: default;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #141414;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.clickable {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
