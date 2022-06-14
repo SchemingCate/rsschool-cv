@@ -210,6 +210,52 @@ body {
   padding: 0 5px;
 }
 
+.code-example {
+  background-color: #141414;
+  padding-left: 5px;
+  border: 2px solid #F4B64C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.yellow-code {
+  color: #F4B64C;
+}
+
+.red-code {
+  color: #EB4746;
+}
+
+.blue-code {
+  color: #637BFF;
+}
+
+.aqua-code {
+  color: #8698FF;
+}
+
+.green-code {
+  color: #7ADF78;
+}
+
+.content-link {
+  color: #2038BE;
+  text-decoration: none;
+}
+
+.content-link:hover,
+.content-link:active {
+  color: #EB4746;
+}
+
+.text-content {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 .page-footer {
   display: flex;
   flex-direction: row;
