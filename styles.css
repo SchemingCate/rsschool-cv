@@ -190,6 +190,26 @@ body {
   margin-top: 20px;
 }
 
+.right-content {
+  margin: 0;
+  padding: 20px;
+  border: 2px dashed #2038BE;
+}
+
+.red-letter {
+  color: #EB4746;
+}
+
+.right-heading {
+  position: relative;
+  width: fit-content;
+  top: 15px;
+  margin: 0;
+  background-color: #FFFFFF;
+  margin-left: 15px;
+  padding: 0 5px;
+}
+
 .page-footer {
   display: flex;
   flex-direction: row;
