@@ -71,6 +71,20 @@ body {
   background-color: #F4B64C;
 }
 
+.left-heading {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #141414;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
 .right-column {
   display: flex;
   flex-direction: column;
