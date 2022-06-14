@@ -148,6 +148,22 @@ body {
   line-height: 30px; 
 }
 
+/* SKILLS */
+
+.skill-list {
+  width: 200px;
+  margin-left: 10px;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.skill-list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+
 .right-column {
   display: flex;
   flex-direction: column;
