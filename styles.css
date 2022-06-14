@@ -58,6 +58,27 @@ body {
   color: #EB4746;
 }
 
+.columns-structure {
+  display: flex;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #F4B64C;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  padding: 40px;
+  margin-top: 20px;
+}
+
 .page-footer {
   display: flex;
   flex-direction: row;
