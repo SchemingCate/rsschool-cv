@@ -117,6 +117,37 @@ body {
   margin-top: 20px;
 }
 
+/* CONTACTS */
+
+.contact-link {
+  display: flex;
+  height: 30px;
+  margin-top: 3px;
+  line-height: 30px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-link:hover,
+.contact-link:active {
+  color: #EB4746;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contact-info{
+  display: inline-block;
+  text-align: center;
+  line-height: 30px; 
+}
+
 .right-column {
   display: flex;
   flex-direction: column;
