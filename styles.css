@@ -323,6 +323,46 @@ body {
   font-weight: inherit;
 }
 
+/* EDUCATION */
+
+.education-list {
+  list-style: none;
+}
+
+.education-list-item {
+  border-bottom: 2px dashed #2038BE;
+  padding-bottom: 10px;
+}
+
+.education-list-item:last-child {
+  border: none;
+} 
+
+.education-heading {
+  margin: 10px 0;
+  text-transform: uppercase;
+  color: #EB4746;
+}
+
+.education-link {
+  font-weight: 500;
+  color: #2038BE;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.education-link:hover,
+.education-link:active {
+  color: #EB4746;
+}
+
+.education-date {
+  display: block;
+  font-style: italic;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
 .page-footer {
   display: flex;
   flex-direction: row;
