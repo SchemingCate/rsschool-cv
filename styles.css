@@ -365,14 +365,37 @@ body {
 
 .page-footer {
   display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: space-between;
-  height: 80px;
+  align-items: center;
+  height: 50px;
   width: 920px;
   padding: 0 40px;
+  border-top: 5px solid #2038BE;
   background-color: #EB4746;
   font-weight: 500;
   font-size: 16px;
   color: #141414;
+}
+
+.rss-logo {
+  margin-left: 10px;
+}
+
+.github-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 20px;
+  color: #141414;
+}
+
+.github-link:hover,
+.github-link:active {
+  color:#F4B64C
+}
+
+.github-text {
+  position: relative;
+  top: -10px;
+  margin-left: 5px;
 }
