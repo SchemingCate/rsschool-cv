@@ -58,3 +58,16 @@ body {
   color: #EB4746;
 }
 
+.page-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  height: 80px;
+  width: 920px;
+  padding: 0 40px;
+  background-color: #EB4746;
+  font-weight: 500;
+  font-size: 16px;
+  color: #141414;
+}
