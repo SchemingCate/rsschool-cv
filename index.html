@@ -5,61 +5,127 @@
   <title>Yekaterina Pavlova | RSSchool CV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Yekaterina Pavlova's CV</h1>
-    <p>Yekaterina Pavlova</p>
-    <p>Junior Frontend Developer</p>
-  </header>
-  <section>
-    <h2>Contact info</h2>
-    <ul>
-      <li>
-        <span>E-mail</span>
-        <a href="mailto:hello.ekaterina@bk.ru">hello.ekaterina@bk.ru</a></li>
-      <li>
-        <span>Telegram messenger</span>
-        <a href="">@Cate66</a>
-      </li>
-      <li>
-        <span>Discord</span>
-        CatTheAlly#6904
-      </li>
-    </ul>
-  </section>
-  <section>
-    <h2>Hard skills</h2>
-    <ul>
-      <li>HTML<span>4/5</span></li> 
-      <li>CSS <span>4/5</span></li>
-      <li>JavaScript<span>2/5</span></li>
-      <li>Git<span>4/5</span></li>
-      <li>GitHub<span>4/5</span></li>
-      <li>VSCode<span>4/5</span></li>
-      <li>Figma<span>5/5</span></li>
-    </ul>
-  </section>
-  <section>
-    <h2>Languages</h2>
-    <ul>
-      <li>English<span>5/5</span></li> 
-      <li>Russian<span>5/5</span></li>
-      <li>French<span>2/5</span></li>
-    </ul>
-  </section>
-  <section>
-    <h2>Hobbies</h2>
-    <ul>
-      <li>Gaming</li>
-      <li>Music</li>
-      <li>Languages</li>
-      <li>Makeup</li>
-    </ul>
-  </section>
-  <section>
-    <h2>About me</h2>
-    <p>An account manager who got interested in the process of web development and fell in love with frontend.</p>
-  </section>
+  <div class="wrapper">
+    <header class="page-header">
+      <h1 class="visually-hidden">Yekaterina Pavlova's CV</h1>
+      <nav>
+        <ul class="navigation-list">
+          <span class="navigation-item">&middot;</span>
+          <li class="navigation-item"><a class="navigation-link" href="#about">About me</a></li>
+          <span class="navigation-item">&middot;</span>
+          <li class="navigation-item"><a class="navigation-link" href="#skills">Skills</a></li>
+          <span class="navigation-item">&middot;</span>
+          <li class="navigation-item"><a class="navigation-link" href="#code">Code example</a></li>
+          <span class="navigation-item">&middot;</span>
+          <li class="navigation-item"><a class="navigation-link" href="#projects">Projects</a></li>
+          <span class="navigation-item">&middot;</span>
+          <li class="navigation-item"><a class="navigation-link" href="#education">Education</a></li>
+          <span class="navigation-item">&middot;</span>
+          <li class="navigation-item"><a class="navigation-link" href="#languages">Languages</a></li>
+          <span class="navigation-item">&middot;</span>
+          <li class="navigation-item"><a class="navigation-link" href="#contact">Contact me</a></li>
+          <span class="navigation-item">&middot;</span>
+        </ul>
+      </nav>
+    </header>
+    <div class="columns-structure">
+      <div class="left-column">
+        <div class="intro">
+          <img class="image" width="300" height="300" src="/images/sticker.png" atl="Yekaterina's avatar - memoji of a woman with blue hair and red glasses showing a peace sign.">
+          <p class="name">Yekaterina <span class="surname">Pavlova</span></p>
+          <p class="role">Junior Frontend Developer</p>
+        </div>
+        <section class="left-section">
+          <h2 class="left-heading" id="contact">Contact me</h2>
+          <ul class="contact-list">
+            <li>
+              <a class="contact-link"href="mailto:hello.ekaterina@bk.ru">
+                <img class="logo" src="/images/logos/email-logo.svg" width="30" height="30" alt="E-mail.">
+                hello.ekaterina@bk.ru
+              </a>
+            </li>
+            <li>
+              <a class="contact-link telegram-link" href="#">
+                <img class="logo" src="/images/logos/telegram-logo.svg" width="30" height="30" alt="Telegram messenger.">
+                @Cate66
+              </a>
+            </li>
+            <li>
+              <a class="contact-link" href="#">
+                <img class="logo" src="/images/logos/discord-logo.svg" width="30" height="30" alt="Discord."></img>
+                CatTheAlly#6904
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="left-section">
+          <h2 class="left-heading" id="skills">Skills</h2>
+          <ul class="skill-list">
+            <li class="skill-list-item">HTML<img src="/images/skill-ratings/rating-4.svg" width="86" height="15" alt="4/5"></li> 
+            <li class="skill-list-item">CSS<img src="/images/skill-ratings/rating-3.svg" width="86" height="15" alt="3/5"></li>
+            <li class="skill-list-item">JavaScript<img src="/images/skill-ratings/rating-2.svg" width="86" height="15" alt="2/5"></li>
+            <li class="skill-list-item">Git<img src="/images/skill-ratings/rating-3.svg" width="86" height="15" alt="3/5"></li>
+            <li class="skill-list-item">GitHub<img src="/images/skill-ratings/rating-4.svg" width="86" height="15" alt="4/5"></li>
+            <li class="skill-list-item">VSCode<img src="/images/skill-ratings/rating-4.svg" width="86" height="15" alt="4/5"></li>
+            <li class="skill-list-item">Figma<img src="/images/skill-ratings/rating-5.svg" width="86" height="15" alt="4/5"></li>
+          </ul>
+        </section>
+        <section class="left-section">
+          <h2 class="left-heading" id="languages">Languages</h2>
+          <ul class="skill-list">
+            <li class="skill-list-item">English<img src="/images/skill-ratings/rating-5.svg" width="86" height="15" alt="4/5"></li> 
+            <li class="skill-list-item">Russian<img src="/images/skill-ratings/rating-5.svg" width="86" height="15" alt="4/5"></li>
+            <li class="skill-list-item">French<img src="/images/skill-ratings/rating-2.svg" width="86" height="15" alt="2/5"></li>
+          </ul>
+        </section>
+        <section class="left-section">
+          <h2 class="left-heading" id="hobbies">Hobbies</h2>
+          <ul class="hobbies-list">
+            <li>Gaming</li>
+            <li class="hobbies-list-item-right">Music</li>
+            <li>Makeup</li>
+            <li class="hobbies-list-item-right">Design</li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-column">
+        <section>
+          <h2 class="right-heading" id="about"><span class="red-letter">A</span>bout me</h2>
+          <p class="right-content">An account manager who got interested in the process of web development and fell in love with frontend.</p>
+        </section>
+        <section>
+          <h2 class="right-heading" id="projects">Projects</h2>
+          <div class="right-content">Grid</div>
+        </section>
+        <section>
+          <h2 class="right-heading" id="code">Code example</h2>
+          <div class="right-content">
+            <pre>
+              <code>&NewLine;function duplicateEncode(word){&NewLine;  noCaseWord = word.toLowerCase();&NewLine;  const lettersArray = noCaseWord.split('');&NewLine;  let result = ''; &NewLine;  for (i = 0; i < lettersArray.length; i++) {&NewLine;    for (j = 0; j < lettersArray.length; j++) {&NewLine;      if (i !== j && lettersArray[i] === lettersArray[j]) {&NewLine;        result += ')';&NewLine;        break;&NewLine;      } else if ((j + 1) === lettersArray.length) {&NewLine;        result += '(';&NewLine;        break;&NewLine;      }&NewLine;    }&NewLine;  }&NewLine;  return result;&NewLine;};
+              </code>
+            </pre>
+          </div>
+        </section>
+        <section>
+          <h2 id="education">Education</h2>
+          <ul>
+            <li>RSSchool JS/FE Pre-School (stage#0) in progress</li>
+            <li>HTMLAcademy Web development course CSS HTML in progress</li>
+            <li>Moscow State Pedagogical University Bachelor of Linguistics 2020</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <footer class="page-footer">
+      <span>&copy 2022 by Yekaterina Pavlova for JS/FE Pre-School course by</span>
+      <a href="https://rs.school/js/"><img width="161" height="60" src="/images/logos/rs_school_js.svg"></a>
+      <a href="https://github.com/SchemingCate"><img height="60" src="/images/logos/GitHub-Mark-64px.png">My github</a>
+    </footer>
+  </div>
 </body>
 </html>
