@@ -85,6 +85,38 @@ body {
   color: #FFFFFF;
 }
 
+.intro {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.name {
+  margin: 0;
+  letter-spacing: 0.17em;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.surname {
+  color: #EB4746;
+}
+
+.role {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  font-size: 13px; 
+}
+
+.image {
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.left-section {
+  margin-top: 20px;
+}
+
 .right-column {
   display: flex;
   flex-direction: column;
