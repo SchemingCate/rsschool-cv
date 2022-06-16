@@ -1,0 +1,405 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #c1c1c1;
+  cursor: default;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #141414;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.clickable {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.page-header {
+  position: fixed;
+  height: 40px;
+  width: 1000px;
+  background-color: #2038BE;
+  color: #F4B64C;
+  z-index: 1000000;
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 5px;
+  list-style: none;
+}
+
+.navigation-item {
+  text-transform: uppercase;
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #EB4746;
+}
+
+.columns-structure {
+  display: flex;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #F4B64C;
+}
+
+.left-heading {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #141414;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.intro {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.name {
+  margin: 0;
+  letter-spacing: 0.17em;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.surname {
+  color: #EB4746;
+}
+
+.role {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  font-size: 13px; 
+}
+
+.image {
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.left-section {
+  margin-top: 20px;
+}
+
+/* CONTACTS */
+
+.contact-link {
+  display: flex;
+  height: 30px;
+  margin-top: 3px;
+  line-height: 30px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-link:hover,
+.contact-link:active {
+  color: #EB4746;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contact-info{
+  display: inline-block;
+  text-align: center;
+  line-height: 30px; 
+}
+
+/* SKILLS */
+
+.skill-list {
+  width: 200px;
+  margin-left: 10px;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.skill-list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+
+/* HOBBIES */
+
+.hobbies-list {
+  display: grid;
+  grid-template-columns: 90px 90px;
+  row-gap: 15px;
+  column-gap: 10px;
+  justify-content: center;
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+  text-align: right;
+}
+
+.hobbies-list-item-right {
+  text-align: left;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.right-content {
+  margin: 0;
+  padding: 20px;
+  border: 2px dashed #2038BE;
+}
+
+.red-letter {
+  color: #EB4746;
+}
+
+.right-heading {
+  position: relative;
+  width: fit-content;
+  top: 15px;
+  margin: 0;
+  background-color: #FFFFFF;
+  margin-left: 15px;
+  padding: 0 5px;
+}
+
+/* PROJECTS */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 233px 233px;
+  column-gap: 16px;
+  width: 496;
+  height: fit-content;
+}
+
+.project-card {
+  border: 2px solid #EB4746;
+  background-color: #F4B64C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 229px;
+  height: 235px;
+}
+
+.project-image {
+  border: 1px dashed transparent;
+  margin: 12px;
+  margin-bottom: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.project-title {
+  margin: 0;
+  margin-left: 14px;
+  font-size: 20px;
+  color: #EB4746;
+}
+
+.project-description {
+  margin: 0 14px;
+  font-weight: 500;
+}
+
+.project-button {
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  left: 11px;
+  width: 90px;
+  height: 30px;
+  margin-right: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #2038BE;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #F4B64C;
+}
+
+.deploy-button {
+  margin: 0;
+}
+
+.project-button:hover,
+.project-button:active {
+  background-color: #EB4746;
+}
+
+/* CODE EXAMPLE */
+
+.code-example {
+  background-color: #141414;
+  padding-left: 5px;
+  border: 2px solid #F4B64C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.yellow-code {
+  color: #F4B64C;
+}
+
+.red-code {
+  color: #EB4746;
+}
+
+.blue-code {
+  color: #637BFF;
+}
+
+.aqua-code {
+  color: #8698FF;
+}
+
+.green-code {
+  color: #7ADF78;
+}
+
+.content-link {
+  color: #2038BE;
+  text-decoration: none;
+}
+
+.content-link:hover,
+.content-link:active {
+  color: #EB4746;
+}
+
+.text-content {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* EDUCATION */
+
+.education-list {
+  list-style: none;
+}
+
+.education-list-item {
+  border-bottom: 2px dashed #2038BE;
+  padding-bottom: 10px;
+}
+
+.education-list-item:last-child {
+  border: none;
+} 
+
+.education-heading {
+  margin: 10px 0;
+  text-transform: uppercase;
+  color: #EB4746;
+}
+
+.education-link {
+  font-weight: 500;
+  color: #2038BE;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.education-link:hover,
+.education-link:active {
+  color: #EB4746;
+}
+
+.education-date {
+  display: block;
+  font-style: italic;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.page-footer {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 920px;
+  padding: 0 40px;
+  border-top: 5px solid #2038BE;
+  background-color: #EB4746;
+  font-weight: 500;
+  font-size: 16px;
+  color: #141414;
+}
+
+.rss-logo {
+  margin-left: 10px;
+}
+
+.github-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 20px;
+  color: #141414;
+}
+
+.github-link:hover,
+.github-link:active {
+  color:#F4B64C
+}
+
+.github-text {
+  position: relative;
+  top: -10px;
+  margin-left: 5px;
+}

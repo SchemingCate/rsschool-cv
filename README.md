@@ -1,1 +1,1 @@
-# rsschool-cv
+https://SchemingCate.github.io/rsschool-cv/
