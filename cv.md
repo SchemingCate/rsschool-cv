@@ -13,3 +13,11 @@
 ## Summary
 
 An account manager who got interested in the process of web development and fell in love with frontend.
+
+## Hard skills
+
+- HTML5, CSS3
+- JavaScript Basics
+- Git, GitHub
+- VS Code
+- Figma
