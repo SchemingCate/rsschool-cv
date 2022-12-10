@@ -56,3 +56,9 @@ function nthFibo(n) {
 
 - **Content manager** 1C-Bitrix Online course - _2021_
 - **Bachelor of Linguistics** Moscow State Pedagogical University - _2020_
+
+## Languages
+
+- English - C1
+- Russian - native
+- French - A2
