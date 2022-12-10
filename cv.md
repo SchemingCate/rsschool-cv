@@ -51,3 +51,8 @@ function nthFibo(n) {
 - **Account manager** at Web studio (name available upon request) - _June 2021 - present_
 - **Junior recruiter** at [ANCOR](https://ancor.ru/) - _April - June 2021_
 - **Private English tutor** - _September 2018 - March 2021_
+
+## Education
+
+- **Content manager** 1C-Bitrix Online course - _2021_
+- **Bachelor of Linguistics** Moscow State Pedagogical University - _2020_
