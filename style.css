@@ -19,6 +19,10 @@ body {
   background-color: #0E1116;
 }
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+/* utilities */
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -32,11 +36,6 @@ body {
   overflow: hidden;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .hidden-list {
   list-style: none;
 }
@@ -45,9 +44,81 @@ body {
   font-weight: 700;
 }
 
+.u-grey-font {
+  color: #8D949D;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+/* components */
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .section {
   margin: 30px
 }
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10px;
+}
+
+.columns--about {
+  align-items: center;
+}
+
+.block {
+  border: solid 2px #31363C;
+  border-radius: 10px;
+  padding: 20px;
+  line-height: 150%;
+  overflow: hidden;
+}
+
+.block h2 {
+  font-size: 2rem;
+  font-family: 'Overpass Mono', monospace;
+  background-color: #171B21;
+  margin: -20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: solid 2px #31363C;
+}
+
+.button,
+.button:link,
+.button:visited {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 25px;
+  background-color: #22262C;
+  color: #6BA4F8;
+  text-decoration: none;
+  border: solid 2px #373B41;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: #31363e;
+}
+
+.button:active {
+  color: #fff;
+  background-color: #1875ff;
+  border: solid 2px #6BA4F8;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+/* header */
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .header {
   background-color: #171B21;
@@ -88,36 +159,8 @@ body {
 .title {
   font-size: 3.6rem;
   color: #6BA4F8;
-
-}
-
-.block {
-  border: solid 2px #31363C;
-  border-radius: 10px;
-  padding: 20px;
-  line-height: 150%;
-  overflow: hidden;
-}
-
-.block h2 {
-  background-color: #171B21;
-  margin-top: -20px;
-  margin-left: -20px;
-  margin-right: -20px;
-  padding: 15px;
-  border-bottom: solid 2px #31363C;
 }
 
 .summary {
   font-size: 2rem;
-}
-
-.columns {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-}
-
-.u-grey-font {
-  color: #8D949D;
 }
