@@ -118,6 +118,16 @@ body {
   border: solid 2px #6BA4F8;
 }
 
+.content-link:link,
+.content-link:visited {
+  color: #6BA4F8;
+  text-decoration: none;
+}
+
+.content-link:hover,
+.content-link:active {
+  text-decoration: underline;
+}
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * */
