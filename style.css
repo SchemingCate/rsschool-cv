@@ -177,3 +177,23 @@ body {
 .summary {
   font-size: 2rem;
 }
+
+.project {
+  color: #8D949D;
+}
+
+.project p {
+  font-size: 1.3rem;
+  line-height: 110%;
+  margin: 10px 0;
+
+}
+
+
+
+.project-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
