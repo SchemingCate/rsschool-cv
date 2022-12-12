@@ -15,8 +15,8 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  color: #CAD1D8;
-  background-color: #0E1116;
+  color: #cad1d8;
+  background-color: #0e1116;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -45,11 +45,11 @@ body {
 }
 
 .u-grey-font {
-  color: #8D949D;
+  color: #8d949d;
 }
 
 .u-accent-font-color {
-  color: #64B75D;
+  color: #64b75d;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -62,7 +62,7 @@ body {
 }
 
 .section {
-  margin: 30px
+  margin: 30px;
 }
 
 .columns {
@@ -76,7 +76,7 @@ body {
 }
 
 .block {
-  border: solid 2px #31363C;
+  border: solid 2px #31363c;
   border-radius: 10px;
   padding: 20px;
   line-height: 150%;
@@ -85,12 +85,12 @@ body {
 
 .block h2 {
   font-size: 2rem;
-  font-family: 'Overpass Mono', monospace;
-  background-color: #171B21;
+  font-family: "Overpass Mono", monospace;
+  background-color: #171b21;
   margin: -20px;
   margin-bottom: 20px;
   padding: 15px;
-  border-bottom: solid 2px #31363C;
+  border-bottom: solid 2px #31363c;
 }
 
 .button,
@@ -99,10 +99,10 @@ body {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 25px;
-  background-color: #22262C;
-  color: #6BA4F8;
+  background-color: #22262c;
+  color: #6ba4f8;
   text-decoration: none;
-  border: solid 2px #373B41;
+  border: solid 2px #373b41;
   border-radius: 10px;
   font-weight: 700;
   transition: all 0.5s;
@@ -115,12 +115,12 @@ body {
 .button:active {
   color: #fff;
   background-color: #1875ff;
-  border: solid 2px #6BA4F8;
+  border: solid 2px #6ba4f8;
 }
 
 .content-link:link,
 .content-link:visited {
-  color: #6BA4F8;
+  color: #6ba4f8;
   text-decoration: none;
 }
 
@@ -129,16 +129,15 @@ body {
   text-decoration: underline;
 }
 
-
 /* * * * * * * * * * * * * * * * * * * * * * * * * */
 /* header */
 /* * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .header {
-  background-color: #171B21;
+  background-color: #171b21;
   font-size: 2rem;
   font-weight: 700;
-  color: #F1F6FB;
+  color: #f1f6fb;
   padding: 20px 0;
 }
 
@@ -151,10 +150,10 @@ body {
   margin: 20px 0;
   height: 300px;
   width: 300px;
-  background-color: #31363C;
+  background-color: #31363c;
   border-radius: 9999px;
-  border: solid 2px #31363C;
-  outline: solid 2px #26282E;
+  border: solid 2px #31363c;
+  outline: solid 2px #26282e;
   overflow: hidden;
 }
 
@@ -172,7 +171,7 @@ body {
 
 .title {
   font-size: 3.6rem;
-  color: #6BA4F8;
+  color: #6ba4f8;
 }
 
 .summary {
