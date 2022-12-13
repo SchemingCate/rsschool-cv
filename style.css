@@ -280,3 +280,42 @@ body {
 .course h3 {
   text-transform: capitalize;
 }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+/* footer */
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.footer {
+  border-top: solid 2px #31363c;
+  color: #8D949D;
+}
+
+.rss-logo {
+  display: block;
+  width: 121px;
+  height: 45px;
+  background-image: url(./img/logos/rss.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.rss-logo:hover,
+.rss-logo:active {
+  background-image: url(./img/logos/rss--hover.svg);
+}
+
+.footer .section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  color: #8D949D;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #6ba4f8;
+}
