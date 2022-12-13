@@ -234,3 +234,28 @@ body {
   column-gap: 20px;
   row-gap: 20px;
 }
+
+.project__image {
+  height: 270px;
+  width: 100%;
+  border: solid 2px #31363c;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.project__image img{
+  width: 100%;
+  transition: all .5s;
+}
+
+.project__image:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.project__buttons {
+  display: flex;
+  gap: 20px;
+}
+
