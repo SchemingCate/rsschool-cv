@@ -1,12 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RSSchool CV</title>
-</head>
-<body>
-  <h1>Yekaterina's CV</h1>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>Yekaterina Pavlova | RSSchool CV</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="visually-hidden">Yekaterina's CV</h1>
+      <nav class="container navigation">
+        <ul class="navigation__list hidden-list">
+          <li><a class="navigation-link" href="#summary">Summary</a></li>
+          <li><a class="navigation-link" href="#contact">Contacts</a></li>
+          <li><a class="navigation-link" href="#skills">Skills</a></li>
+          <li><a class="navigation-link" href="#languages">Languages</a></li>
+          <li><a class="navigation-link" href="#code">Code example</a></li>
+          <li><a class="navigation-link" href="#projects">Projects</a></li>
+          <li><a class="navigation-link" href="#courses">Courses</a></li>
+          <li><a class="navigation-link" href="#education">Education</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="section" id="summary">
+        <h2 class="visually-hidden">Summary</h2>
+        <p class="title">
+          Frontend developer <span class="u-grey-font">/</span>
+          <span class="u-bold">Yekaterina Pavlova</span>
+        </p>
+        <div class="columns--about">
+          <div class="avatar">
+            <img src="./img/avatar.jpg" alt="Yekaterina's photo" />
+          </div>
+          <div>
+            <div class="block summary">
+              Frontend student willing to learn new things. I’m passionate about making web experience better and accessible for everyone, and my code - easier to read and maintain. I'd love to be a part of a diverse team with efficient workflow working on big projects with a11y in mind.
+              <div>
+                <a href="#contact" class="button">Let's Get in Touch!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="columns section">
+        <section class="block" id="contact">
+          <h2>Contacts</h2>
+          <ul class="hidden-list">
+            <li>
+              E-mail:
+              <a
+                class="content-link"
+                href="mailto:hello.ekaterina@bk.ru"
+                target="_blank"
+                >hello.ekaterina@bk.ru</a
+              >
+            </li>
+            <li>
+              Telegram:
+              <a class="content-link" href="https://t.me/Cate66" target="_blank"
+                >@Cate66</a
+              >
+            </li>
+            <li>
+              Discord:
+              <a
+                class="content-link"
+                href="https://discordapp.com/users/CatTheAlly#6904"
+                target="_blank"
+                >CatTheAlly#6904</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="block code-section" id="code">
+          <h2>Code example</h2>
+          <p>
+            My solution for
+            <a
+              class="content-link"
+              href="https://www.codewars.com/kata/54b42f9314d9229fd6000d9c"
+              >Dublicate Encoder Kata</a
+            >
+            on Codewars
+          </p>
+          <pre class="code">
+              <code>&NewLine;<span class="color-keyword">function</span> <span class="color-function">duplicateEncode</span>(word){&NewLine;  noCaseWord = word.<span class="color-function">toLowerCase</span>();&NewLine;  <span class="color-keyword">const</span> lettersArray <span class="color-operators">=</span> noCaseWord.<span class="color-function">split</span>(<span class="color-quotes">''</span>);&NewLine;  <span class="color-keyword">let</span> result <span class="color-operators">=</span> <span class="color-quotes">''</span>; &NewLine;  <span class="color-keyword">for</span> (i <span class="color-operators">= 0</span>; i &lt; lettersArray.<span class="color-operators">length</span>; i<span class="color-operators">++</span>) {&NewLine;    <span class="color-keyword">for</span> (j <span class="color-operators">= 0</span>; j &lt; lettersArray.<span class="color-operators">length</span>; j<span class="color-operators">++</span>) {&NewLine;      <span class="color-keyword">if</span> (i <span class="color-operators">!==</span> j <span class="color-operators">&&</span> lettersArray[i] <span class="color-operators">===</span> lettersArray[j]) {&NewLine;        result <span class="color-operators">+=</span> <span class="color-quotes">')'</span>;&NewLine;        <span class="color-keyword">break</span>;&NewLine;      } <span class="color-keyword">else if</span> ((j <span class="color-operators">+ 1</span>) <span class="color-operators">===</span> lettersArray.<span class="color-operators">length</span>) {&NewLine;        result <span class="color-operators">+=</span> <span class="color-quotes">'('</span>;&NewLine;        <span class="color-keyword">break</span>;&NewLine;      }&NewLine;    }&NewLine;  }&NewLine;  <span class="color-keyword">return</span> result;&NewLine;};</code>
+            </pre>
+        </section>
+        <section class="block" id="skills">
+          <h2>Skills</h2>
+          <ul class="hidden-list">
+            <li>
+              Web-development:
+              <span class="u-accent-font-color"
+                >HTML5, CSS3(+SASS/SCSS), JavaScript</span
+              >
+            </li>
+            <li>
+              Version control:
+              <span class="u-accent-font-color">Git, GitHub</span>
+            </li>
+            <li>Graphics: <span class="u-accent-font-color">Figma</span></li>
+            <li>
+              Methodologies:
+              <span class="u-accent-font-color"
+                >Agile (Scrum, Kanban), Waterfall</span
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="block" id="languages">
+          <h2>Languages</h2>
+          <ul class="hidden-list">
+            <li>English: C1 (advanced)</li>
+
+            <li>Russian: native</li>
+          </ul>
+        </section>
+
+        <section class="project-section block" id="projects">
+          <h2>Projects</h2>
+          <div class="project-columns">
+            <article class="block project">
+              <a href="https://schemingcate.github.io/omnifood/" target="_blank"
+                ><div class="project__image">
+                  <img
+                    src="./img/projects/omnifood.png"
+                    alt="Project screenshot"
+                  /></div
+              ></a>
+              <h3>
+                <a
+                  class="content-link"
+                  href="https://schemingcate.github.io/omnifood/"
+                  target="_blank"
+                  >omnifood</a
+                >
+              </h3>
+              <p>
+                Landing page for a food subscription service. The page tells the
+                user about the service and encourages to try it by filling out a
+                simple subscription form.
+              </p>
+              <p>
+                The website is responsive and looks good on most screen sizes.
+              </p>
+              <div class="project__buttons">
+                <a
+                  class="button"
+                  href="https://schemingcate.github.io/omnifood/"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  class="button"
+                  href="https://github.com/SchemingCate/omnifood"
+                  target="_blank"
+                  >GitHub Repo</a
+                >
+              </div>
+            </article>
+            <article class="block project">
+              <a
+                href="https://schemingcate.github.io/guess-my-number/"
+                target="_blank"
+                ><div class="project__image">
+                  <img
+                    src="./img/projects/guess-my-number.png"
+                    alt="Project screenshot"
+                  /></div
+              ></a>
+              <h3>
+                <a
+                  class="content-link"
+                  href="https://schemingcate.github.io/guess-my-number/"
+                  target="_blank"
+                  >guess-my-number</a
+                >
+              </h3>
+              <p>
+                A game where you need to guess a number from 1 to 20. The goal
+                is to guess the number with fewer attempts.
+              </p>
+              <p>The demo is desktop only.</p>
+              <div class="project__buttons">
+                <a
+                  class="button"
+                  href="https://schemingcate.github.io/guess-my-number/"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  class="button"
+                  href="https://github.com/SchemingCate/guess-my-number"
+                  target="_blank"
+                  >GitHub Repo</a
+                >
+              </div>
+            </article>
+            <article class="block project">
+              <a href="https://schemingcate.github.io/pig-game/" target="_blank"
+                ><div class="project__image">
+                  <img
+                    src="./img/projects/pig-game.png"
+                    alt="Project screenshot"
+                  /></div
+              ></a>
+              <h3>
+                <a
+                  class="content-link"
+                  href="https://schemingcate.github.io/pig-game/"
+                  target="_blank"
+                  >pig-game</a
+                >
+              </h3>
+              <p>
+                A very simple dice game in which two players race to reach 100
+                points
+              </p>
+              <p>The demo is desktop only.</p>
+              <div class="project__buttons">
+                <a
+                  class="button"
+                  href="https://schemingcate.github.io/pig-game/"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  class="button"
+                  href="https://github.com/SchemingCate/pig-game"
+                  target="_blank"
+                  >GitHub Repo</a
+                >
+              </div>
+            </article>
+            <article class="block project">
+              <a href="https://schemingcate.github.io/trillo/" target="_blank"
+                ><div class="project__image">
+                  <img
+                    src="./img/projects/trillo.png"
+                    alt="Project screenshot"
+                  /></div
+              ></a>
+              <h3>
+                <a
+                  class="content-link"
+                  href="https://schemingcate.github.io/trillo/"
+                  target="_blank"
+                  >trillo</a
+                >
+              </h3>
+              <p>This is one page of all-in-one booking app.</p>
+              <p>The demo is desktop only.</p>
+              <div class="project__buttons">
+                <a
+                  class="button"
+                  href="https://schemingcate.github.io/trillo/"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  class="button"
+                  href="https://github.com/SchemingCate/trillo"
+                  target="_blank"
+                  >GitHub Repo</a
+                >
+              </div>
+            </article>
+            <article class="block project">
+              <a href="https://taupe-sawine-80ea28.netlify.app" target="_blank"
+                ><div class="project__image">
+                  <img
+                    src="./img/projects/sedona.png"
+                    alt="Project screenshot"
+                  /></div
+              ></a>
+              <h3>
+                <a
+                  class="content-link"
+                  href="https://taupe-sawine-80ea28.netlify.app"
+                  target="_blank"
+                  >sedona</a
+                >
+              </h3>
+              <p>Landing page and hotel catalogue.</p>
+              <p>The demo is desktop only and in Russian.</p>
+              <div class="project__buttons">
+                <a
+                  class="button"
+                  href="https://taupe-sawine-80ea28.netlify.app"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  class="button"
+                  href="https://github.com/SchemingCate/1941089-sedona-34"
+                  target="_blank"
+                  >GitHub Repo</a
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="courses-section block" id="courses">
+          <h2>Courses</h2>
+          <div class="course">
+            <h3>
+              <a
+                class="content-link"
+                href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+                target="_blank"
+                >Build Responsive Real-World Websites with HTML and CSS</a
+              >
+            </h3>
+            <p>Udemy</p>
+            <p>2022</p>
+            <p>
+              <a
+                class="content-link"
+                href="http://ude.my/UC-81787c82-2851-453b-9a5d-1db2d7cb9705"
+                target="_blank"
+                >Cetrificate of completion</a
+              >
+            </p>
+          </div>
+          <div class="course">
+            <h3>
+              <a
+                class="content-link"
+                href="https://htmlacademy.ru/intensive/htmlcss"
+                target="_blank"
+                >HTML & CSS. Professional Website Coding</a
+              >
+            </h3>
+            <p>HTMLAcademy</p>
+            <p>2022</p>
+            <p>
+              <a
+                class="content-link"
+                href="https://assets.htmlacademy.ru/certificates/intensive/333/1941089.pdf?1657978546&_ga=2.178938541.840338751.1659554110-1247895505.1659185789"
+                target="_blank"
+                >Cetrificate of completion</a
+              >
+            </p>
+          </div>
+        </section>
+        <section class="block" id="education">
+          <h2>Education</h2>
+          <h3>
+            <a
+              class="content-link"
+              href="http://mpgu.su/ob-mpgu/struktura/faculties/fakultet-inostrannyih-yazyikov-2/bakalavriat/lingvistika-profil-teoriya-i-metodika-prepodavaniya-inostrannyih-yazyikov-i-kultur-45-03-02/"
+              target="_blank"
+              >Bachelor of Linguistics</a
+            >
+          </h3>
+          <p>MSPU</p>
+          <p>2020</p>
+        </section>
+      </div>
+    </main>
+    <footer class="container footer">
+      <div class="section">
+        <span
+          >&copy; 2022
+          <a
+            class="content-link footer-link"
+            href="https://github.com/SchemingCate"
+            target="_blank"
+            >Yekaterina Pavlova</a
+          ></span
+        >
+        <a href="https://rs.school/js/" target="_blank" class="rss-logo"></a>
+      </div>
+    </footer>
+  </body>
 </html>
