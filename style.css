@@ -53,7 +53,9 @@ body {
   color: #64b75d;
 }
 
-
+sup {
+  font-size: 1.1rem;
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * */
 /* components */
@@ -186,7 +188,6 @@ body {
 
 .avatar img {
   height: 100%;
-  width: 100%;
 }
 
 .title__name {
