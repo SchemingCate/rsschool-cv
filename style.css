@@ -7,6 +7,7 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -142,15 +143,34 @@ body {
 
 .header {
   background-color: #171b21;
-  font-size: 2rem;
   font-weight: 700;
   color: #f1f6fb;
-  padding: 20px 0;
+  height: 56px;
+}
+
+.navigation {
 }
 
 .navigation__list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
+}
+
+.navigation-link {
+  display: block;
+  padding: 20px 10px;
+}
+
+.navigation-link:link,
+.navigation-link:visited {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s;
+}
+
+.navigation-link:hover,
+.navigation-link:active {
+  color: #BABBBD;
 }
 
 .avatar {

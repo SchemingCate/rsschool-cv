@@ -22,23 +22,24 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      
         <h1 class="visually-hidden">Yekaterina's CV</h1>
-        <nav>
+        <nav class="container navigation">
           <ul class="navigation__list hidden-list">
-            <li>About me</li>
-            <li>Skills</li>
-            <li>Code example</li>
-            <li>Projects</li>
-            <li>Education</li>
-            <li>Languages</li>
-            <li>Contact me</li>
+            <li><a class="navigation-link" href="#summary">Summary</a></li>
+            <li><a class="navigation-link" href="#contact">Contacts</a></li>
+            <li><a class="navigation-link" href="#skills">Skills</a></li>
+            <li><a class="navigation-link" href="#languages">Languages</a></li>
+            <li><a class="navigation-link" href="#code">Code example</a></li>
+            <li><a class="navigation-link" href="#projects">Projects</a></li>
+            <li><a class="navigation-link" href="#courses">Courses</a></li>
+            <li><a class="navigation-link" href="#education">Education</a></li>
           </ul>
         </nav>
-      </div>
+      
     </header>
     <main class="container">
-      <section class="section">
+      <section class="section" id="summary">
         <p class="title">
           Frontend developer <span class="u-grey-font">/</span>
           <span class="u-bold">Yekaterina Pavlova</span>
@@ -51,13 +52,13 @@
               Consectetur, nobis. Reiciendis qui laudantium adipisci expedita
               ex? Voluptatem ipsum minus magnam, laborum quisquam est!
               Recusandae, nihil aliquid quas numquam nostrum blanditiis.
-              <div><a href="#" class="button">Let's Get in Touch!</a></div>
+              <div><a href="#contact" class="button">Let's Get in Touch!</a></div>
             </div>
           </div>
         </div>
       </section>
       <div class="columns section">
-        <section class="block">
+        <section class="block" id="contact">
           <h2>Contacts</h2>
           <ul class="hidden-list">
             <li>
@@ -80,7 +81,7 @@
             </li>
           </ul>
         </section>
-        <section class="block code-section">
+        <section class="block code-section" id="code">
           <h2>Code example</h2>
           <p>
             My solution for
@@ -95,7 +96,7 @@
               <code>&NewLine;<span class="color-keyword">function</span> <span class="color-function">duplicateEncode</span>(word){&NewLine;  noCaseWord = word.<span class="color-function">toLowerCase</span>();&NewLine;  <span class="color-keyword">const</span> lettersArray <span class="color-operators">=</span> noCaseWord.<span class="color-function">split</span>(<span class="color-quotes">''</span>);&NewLine;  <span class="color-keyword">let</span> result <span class="color-operators">=</span> <span class="color-quotes">''</span>; &NewLine;  <span class="color-keyword">for</span> (i <span class="color-operators">= 0</span>; i &lt; lettersArray.<span class="color-operators">length</span>; i<span class="color-operators">++</span>) {&NewLine;    <span class="color-keyword">for</span> (j <span class="color-operators">= 0</span>; j &lt; lettersArray.<span class="color-operators">length</span>; j<span class="color-operators">++</span>) {&NewLine;      <span class="color-keyword">if</span> (i <span class="color-operators">!==</span> j <span class="color-operators">&&</span> lettersArray[i] <span class="color-operators">===</span> lettersArray[j]) {&NewLine;        result <span class="color-operators">+=</span> <span class="color-quotes">')'</span>;&NewLine;        <span class="color-keyword">break</span>;&NewLine;      } <span class="color-keyword">else if</span> ((j <span class="color-operators">+ 1</span>) <span class="color-operators">===</span> lettersArray.<span class="color-operators">length</span>) {&NewLine;        result <span class="color-operators">+=</span> <span class="color-quotes">'('</span>;&NewLine;        <span class="color-keyword">break</span>;&NewLine;      }&NewLine;    }&NewLine;  }&NewLine;  <span class="color-keyword">return</span> result;&NewLine;};</code>
             </pre>
         </section>
-        <section class="block">
+        <section class="block" id="skills">
           <h2>Skills</h2>
           <ul class="hidden-list">
             <li>
@@ -117,7 +118,7 @@
             </li>
           </ul>
         </section>
-        <section class="block">
+        <section class="block" id="languages">
           <h2>Languages</h2>
           <ul class="hidden-list">
             <li>English: C1 (advanced)</li>
@@ -126,7 +127,7 @@
           </ul>
         </section>
 
-        <section class="project-section block">
+        <section class="project-section block" id="projects">
           <h2>Projects</h2>
           <div class="project-columns">
             <article class="block project">
@@ -295,7 +296,7 @@
             </article>
           </div>
         </section>
-        <section class="courses-section block">
+        <section class="courses-section block" id="courses">
           <h2>Courses</h2>
           <div class="course">
             <h3>
@@ -330,7 +331,7 @@
             </p>
           </div>
         </section>
-        <section class="block">
+        <section class="block" id="education">
           <h2>Education</h2>
           <h3>
             <a
