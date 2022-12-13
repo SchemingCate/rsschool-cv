@@ -52,6 +52,8 @@ body {
   color: #64b75d;
 }
 
+
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * */
 /* components */
 /* * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -67,11 +69,16 @@ body {
 
 .columns {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
 .columns--about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+  row-gap: 20px;
   align-items: center;
 }
 
@@ -178,6 +185,38 @@ body {
   font-size: 2rem;
 }
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+/* code example */
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.code-section {
+  grid-row: span 3;
+  grid-column: span 2;
+}
+
+.color-keyword {
+  color: #EE8277;
+}
+
+.color-function {
+  color: #CBAAF9;
+}
+
+.color-operators {
+  color: #89BEFA;
+}
+
+.color-quotes {
+  color: #AFD5FB;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+/* projects */
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+.project-section {
+  grid-column: span 3;
+}
+
 .project {
   color: #8D949D;
 }
@@ -188,8 +227,6 @@ body {
   margin: 10px 0;
 
 }
-
-
 
 .project-columns {
   display: grid;
