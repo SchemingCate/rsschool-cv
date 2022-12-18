@@ -50,20 +50,16 @@
     transform: translateX(0);
     z-index: 999;
   }
-
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
-
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
-
   .navigation__list {
     flex-direction: column;
     gap: 1.5rem;
   }
-
   .navigation-link:link,
   .navigation-link:visited {
     font-size: 2.5rem;
