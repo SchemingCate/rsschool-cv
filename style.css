@@ -111,6 +111,7 @@ sup {
   padding: 10px 25px;
   background-color: #22262c;
   color: #6ba4f8;
+  text-align: center;
   text-decoration: none;
   border: solid 2px #373b41;
   border-radius: 10px;
@@ -126,6 +127,27 @@ sup {
   color: #fff;
   background-color: #1875ff;
   border: solid 2px #6ba4f8;
+}
+
+.button-mobile-nav {
+  margin: auto;
+  margin-right: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+  position: relative;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #f1f6fb;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 .content-link:link,
@@ -147,7 +169,8 @@ sup {
   background-color: #171b21;
   font-weight: 700;
   color: #f1f6fb;
-  height: 56px;
+  max-height: 56px;
+  position: relative;
 }
 
 .navigation__list {
@@ -171,6 +194,17 @@ sup {
 .navigation-link:active {
   color: #BABBBD;
 }
+
+.button__mobile-nav {
+  position: relative;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+}
+
+/* @media (max-width: 967px ) */
 
 .avatar {
   margin: 20px 0;
@@ -254,8 +288,8 @@ sup {
 }
 
 .project__image {
-  height: 270px;
-  width: 100%;
+  max-height: 270px;
+  max-width: 494px;
   border: solid 2px #31363c;
   border-radius: 10px;
   overflow: hidden;
@@ -265,6 +299,7 @@ sup {
 .project__image img{
   width: 100%;
   transition: all .5s;
+  object-fit: cover;
 }
 
 .project__image:hover img {
