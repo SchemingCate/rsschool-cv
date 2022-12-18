@@ -217,6 +217,12 @@ sup {
   overflow: hidden;
 }
 
+@media not all and (min-resolution: 0.001dpcm) {
+  .avatar {
+    outline: none;
+  }
+}
+
 .avatar img {
   height: 100%;
 }
