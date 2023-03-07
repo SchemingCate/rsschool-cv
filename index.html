@@ -1,39 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./queries.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="site.webmanifest" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
     <title>Yekaterina Pavlova | RSSchool CV</title>
     <meta name="description" content="RSSchool stage 0 task, CV by Yekaterina Pavlova">
   </head>
@@ -52,7 +32,8 @@
           <li><a class="navigation-link" href="#education">Education</a></li>
         </ul>
       </nav>
-      <button class="button-mobile-nav">
+      <button class="button-mobile-nav" type="button">
+        <span class="visually-hidden">Menu</span>
         <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
         <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
       </button>
@@ -66,7 +47,7 @@
         </p>
         <div class="columns--about">
           <div class="avatar">
-            <img src="./img/avatar.jpg" alt="Yekaterina's photo" />
+            <img src="./img/avatar.jpg" alt="Yekaterina's photo">
           </div>
           <div class="block summary">
             <p>
@@ -122,7 +103,7 @@
             on Codewars
           </p>
           <pre class="code">
-              <code>&NewLine;<span class="color-keyword">function</span> <span class="color-function">duplicateEncode</span>(word){&NewLine;  noCaseWord = word.<span class="color-function">toLowerCase</span>();&NewLine;  <span class="color-keyword">const</span> lettersArray <span class="color-operators">=</span> noCaseWord.<span class="color-function">split</span>(<span class="color-quotes">''</span>);&NewLine;  <span class="color-keyword">let</span> result <span class="color-operators">=</span> <span class="color-quotes">''</span>; &NewLine;  <span class="color-keyword">for</span> (i <span class="color-operators">= 0</span>; i &lt; lettersArray.<span class="color-operators">length</span>; i<span class="color-operators">++</span>) {&NewLine;    <span class="color-keyword">for</span> (j <span class="color-operators">= 0</span>; j &lt; lettersArray.<span class="color-operators">length</span>; j<span class="color-operators">++</span>) {&NewLine;      <span class="color-keyword">if</span> (i <span class="color-operators">!==</span> j <span class="color-operators">&&</span> lettersArray[i] <span class="color-operators">===</span> lettersArray[j]) {&NewLine;        result <span class="color-operators">+=</span> <span class="color-quotes">')'</span>;&NewLine;        <span class="color-keyword">break</span>;&NewLine;      } <span class="color-keyword">else if</span> ((j <span class="color-operators">+ 1</span>) <span class="color-operators">===</span> lettersArray.<span class="color-operators">length</span>) {&NewLine;        result <span class="color-operators">+=</span> <span class="color-quotes">'('</span>;&NewLine;        <span class="color-keyword">break</span>;&NewLine;      }&NewLine;    }&NewLine;  }&NewLine;  <span class="color-keyword">return</span> result;&NewLine;};</code>
+              <code>&#10;<span class="color-keyword">function</span> <span class="color-function">duplicateEncode</span>(word){&#10;  noCaseWord = word.<span class="color-function">toLowerCase</span>();&#10;  <span class="color-keyword">const</span> lettersArray <span class="color-operators">=</span> noCaseWord.<span class="color-function">split</span>(<span class="color-quotes">''</span>);&#10;  <span class="color-keyword">let</span> result <span class="color-operators">=</span> <span class="color-quotes">''</span>; &#10;  <span class="color-keyword">for</span> (i <span class="color-operators">= 0</span>; i &lt; lettersArray.<span class="color-operators">length</span>; i<span class="color-operators">++</span>) {&#10;    <span class="color-keyword">for</span> (j <span class="color-operators">= 0</span>; j &lt; lettersArray.<span class="color-operators">length</span>; j<span class="color-operators">++</span>) {&#10;      <span class="color-keyword">if</span> (i <span class="color-operators">!==</span> j <span class="color-operators">&amp;&amp;</span> lettersArray[i] <span class="color-operators">===</span> lettersArray[j]) {&#10;        result <span class="color-operators">+=</span> <span class="color-quotes">')'</span>;&#10;        <span class="color-keyword">break</span>;&#10;      } <span class="color-keyword">else if</span> ((j <span class="color-operators">+ 1</span>) <span class="color-operators">===</span> lettersArray.<span class="color-operators">length</span>) {&#10;        result <span class="color-operators">+=</span> <span class="color-quotes">'('</span>;&#10;        <span class="color-keyword">break</span>;&#10;      }&#10;    }&#10;  }&#10;  <span class="color-keyword">return</span> result;&#10;};</code>
             </pre>
         </section>
         <section class="block skills-section" id="skills">
@@ -162,10 +143,7 @@
             <article class="block project">
               <a href="https://schemingcate.github.io/omnifood/" target="_blank"
                 ><div class="project__image">
-                  <img
-                    src="./img/projects/omnifood.jpg"
-                    alt="Project screenshot"
-                  /></div
+                  <img src="./img/projects/omnifood.jpg" alt="Project screenshot"></div
               ></a>
               <h3>
                 <a
@@ -203,10 +181,7 @@
                 href="https://schemingcate.github.io/guess-my-number/"
                 target="_blank"
                 ><div class="project__image">
-                  <img
-                    src="./img/projects/guess-my-number.jpg"
-                    alt="Project screenshot"
-                  /></div
+                  <img src="./img/projects/guess-my-number.jpg" alt="Project screenshot"></div
               ></a>
               <h3>
                 <a
@@ -239,10 +214,7 @@
             <article class="block project">
               <a href="https://schemingcate.github.io/pig-game/" target="_blank"
                 ><div class="project__image">
-                  <img
-                    src="./img/projects/pig-game.jpg"
-                    alt="Project screenshot"
-                  /></div
+                  <img src="./img/projects/pig-game.jpg" alt="Project screenshot"></div
               ></a>
               <h3>
                 <a
@@ -275,10 +247,7 @@
             <article class="block project">
               <a href="https://schemingcate.github.io/trillo/" target="_blank"
                 ><div class="project__image">
-                  <img
-                    src="./img/projects/trillo.jpg"
-                    alt="Project screenshot"
-                  /></div
+                  <img src="./img/projects/trillo.jpg" alt="Project screenshot"></div
               ></a>
               <h3>
                 <a
@@ -308,10 +277,7 @@
             <article class="block project">
               <a href="https://taupe-sawine-80ea28.netlify.app" target="_blank"
                 ><div class="project__image">
-                  <img
-                    src="./img/projects/sedona.jpg"
-                    alt="Project screenshot"
-                  /></div
+                  <img src="./img/projects/sedona.jpg" alt="Project screenshot"></div
               ></a>
               <h3>
                 <a
@@ -368,7 +334,7 @@
                 class="content-link"
                 href="https://htmlacademy.ru/intensive/htmlcss"
                 target="_blank"
-                >HTML & CSS. Professional Website Coding</a
+                >HTML &amp; CSS. Professional Website Coding</a
               >
             </h3>
             <p>HTMLAcademy</p>
