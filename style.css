@@ -8,6 +8,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
 }
 
 body {
@@ -101,6 +102,38 @@ sup {
   margin-bottom: 20px;
   padding: 15px;
   border-bottom: solid 2px #31363c;
+}
+
+.block:target {
+  animation: 2s block-target-animation;
+}
+
+.block:target h2 {
+  animation: 2s h2-target-animation;
+}
+
+@keyframes block-target-animation {
+  0% {
+    border: solid 2px #31363c;
+  }
+  30% {
+    border: solid 2px #64b75d;
+  }
+  99% {
+    border: solid 2px #31363c;
+  }
+}
+
+@keyframes h2-target-animation {
+  0% {
+    border-bottom: solid 2px #31363c;
+  }
+  30% {
+    border-bottom: solid 2px #64b75d;
+  }
+  99% {
+    border-bottom: solid 2px #31363c;
+  }
 }
 
 .button,
