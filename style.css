@@ -399,14 +399,15 @@ main.container {
   display: block;
   width: 121px;
   height: 45px;
-  background-image: url(./img/logos/rss.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
+  fill: #707680;
+  stroke: #707680;
+  transition: all 0.5s;
 }
 
 .rss-logo:hover,
 .rss-logo:active {
-  background-image: url(./img/logos/rss--hover.svg);
+  fill: #8D949D;
+  stroke: #8D949D;
 }
 
 .footer .section {
