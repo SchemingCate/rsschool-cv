@@ -148,7 +148,7 @@ sup {
 }
 
 .icon-mobile-nav:hover {
-  color: #BABBBD;
+  color: #babbbd;
 }
 
 .icon-mobile-nav[name="close-outline"] {
@@ -197,7 +197,7 @@ sup {
 
 .navigation-link:hover,
 .navigation-link:active {
-  color: #BABBBD;
+  color: #babbbd;
 }
 
 .button__mobile-nav {
@@ -208,7 +208,6 @@ sup {
   display: none;
   z-index: 999;
 }
-
 
 .avatar {
   margin: 20px 0;
@@ -257,19 +256,19 @@ sup {
 }
 
 .color-keyword {
-  color: #EE8277;
+  color: #ee8277;
 }
 
 .color-function {
-  color: #CBAAF9;
+  color: #cbaaf9;
 }
 
 .color-operators {
-  color: #89BEFA;
+  color: #89befa;
 }
 
 .color-quotes {
-  color: #AFD5FB;
+  color: #afd5fb;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -280,14 +279,13 @@ sup {
 }
 
 .project {
-  color: #8D949D;
+  color: #8d949d;
 }
 
 .project p {
   font-size: 1.3rem;
   line-height: 110%;
   margin: 10px 0;
-
 }
 
 .project-columns {
@@ -306,9 +304,9 @@ sup {
   margin-bottom: 10px;
 }
 
-.project__image img{
+.project__image img {
   width: 100%;
-  transition: all .5s;
+  transition: all 0.5s;
   object-fit: cover;
 }
 
@@ -333,7 +331,6 @@ sup {
 
 .course {
   padding: 10px 0;
-  
 }
 
 .course:not(:last-child) {
@@ -350,7 +347,7 @@ sup {
 
 .footer {
   border-top: solid 2px #31363c;
-  color: #8D949D;
+  color: #8d949d;
 }
 
 .rss-logo {
@@ -375,7 +372,7 @@ sup {
 
 .footer-link:link,
 .footer-link:visited {
-  color: #8D949D;
+  color: #8d949d;
 }
 
 .footer-link:hover,
