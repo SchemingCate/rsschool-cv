@@ -288,7 +288,7 @@ main.container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  align-items: flex-start
+  align-items: flex-start;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * */
