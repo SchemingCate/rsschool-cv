@@ -283,7 +283,7 @@ main.container {
 }
 
 .avatar img {
-  height: 100%;
+  width: 100%;
 }
 
 .title__name {
